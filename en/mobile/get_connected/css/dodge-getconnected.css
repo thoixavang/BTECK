@@ -1,0 +1,16 @@
+#get_connected .ui-body-v{color:#929292;}
+
+#get_connected .ui-content{ color:#929292; font-size: 14px; }
+
+#get_connected .alert-icon{ background-image: url("../../img/icons/icons-18-dodge.png"); }
+/*custom font*/
+@font-face {
+font-family: "Stratum";
+font-style: normal;
+font-weight: normal;
+src: url("TradeGothic.eot?#iefix") format("embedded-opentype"), url("TradeGothic.woff") format("woff"), url("TradeGothic.ttf") format("truetype"), url("TradeGothic.svg#svgFontName") format("svg");
+}
+.ui-content h1,
+.ui-content h2{color: #000; font-weight: bold !important;text-transform:uppercase !important;font-family: 'Stratum';}
+#submit_btn{ background: url("../images/dodge-submit.jpg") no-repeat;display: block;height: 25px;margin: 0 auto;text-indent: -999em;width: 72px;}
+#done_btn{ background: url("../images/dodge-done.jpg") no-repeat;display: block;height: 25px;margin: 0 auto;text-indent: -999em;width: 62px;}

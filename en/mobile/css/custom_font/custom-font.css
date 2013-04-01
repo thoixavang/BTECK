@@ -1,0 +1,8 @@
+/*custom font*/
+@font-face {
+font-family: "Stratum";
+font-style: normal;
+font-weight: normal;
+src: url("TradeGothic.eot?#iefix") format("embedded-opentype"), url("TradeGothic.woff") format("woff"), url("TradeGothic.ttf") format("truetype"), url("TradeGothic.svg#svgFontName") format("svg");
+}
+#inventory_search h2, #inventory_search .ui-li-heading, #inventory_search .veh-name{font-family: "Stratum";}

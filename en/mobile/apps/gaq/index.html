@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- Mirrored from m.dodge.com/en/mobile/apps/gaq/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 29 Mar 2013 08:36:10 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="pragma" content="no-cache" />
+
+<meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=0"/>
+
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--<meta name="apple-mobile-web-app-status-bar-style" content="black" />-->
+<link rel="apple-touch-icon" href="../../img/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="../../img/apple-splash.png" />
+
+<link rel="stylesheet" charset="UTF-8" type="text/css" href="../../includes/css/min.css" />
+<script type="text/javascript" src="../../../includes/vehicle_data/data.js"></script>
+<script type="text/javascript" src="../../js/awards.js"></script>
+<script type="text/javascript" src="../../js/media.js"></script>
+
+<!-- crossbrand scripts -->
+<script charset="UTF-8" src="../../../../crossbrand/en/mobile/includes/min.js"></script>
+<script type="text/javascript" src="../../../../crossbrand/shared/javascripts/vendor/nr_c.js"></script>
+<script type="text/javascript" src="../../../../crossbrand/shared/javascripts/wss_funcs.js"></script>
+<script type="text/javascript">nr_t['link_tracking']=0;</script>
+
+
+
+	
+
+
+
+
+	<script type="text/javascript" language="Javascript">
+	var ttGatewayURL = "../../../../../d1cerpgff739r9.cloudfront.net/tt-c653bc8a541ddc7ae0d5dc6a8be096d6a1a2668339293adb6806895774d874b6.js";
+	</script>
+
+
+
+<script type="text/javascript" src="../../../../../service.maxymiser.net/cdn/sapient/chrysler/js/mmcore.js"></script>
+<script type="text/javascript" src="../../js/mp.js"></script>
+
+<script type="text/javascript" src="../../js/cadreon.config.js"></script>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="../../../../../www.dodge.com/hostc/bmo/resources/js/net/autodata/chrysler/pe/PaymentCalculator.js"></script>
+    <title>Dodge Mobile | Get a Quote</title>
+    <meta content="Get a quote on new Dodge Vehicles." name="description" />
+</head>
+<body>
+
+<!-- Start of gaq -->
+<div data-role="page" id="gaq" data-title="Dodge Mobile | Get a Quote">
+	<div data-role="header" data-position="fixed" data-tap-toggle="false">
+    <a href="../../home.html" data-transition="pop" data-role="none" data-direction="reverse" name="lid=logo&lpos=top_nav_mobile" class="ui-btn-left"><img width="210" height="41" class="logo" alt="" src="../../img/logo.png"></a>
+	<a href="#menu" class="ui-btn-right" data-icon="menu" data-iconpos="top" data-theme="a" name="lid=quick_finder&lpos=top_nav_mobile" id="quick_finder_btn" data-rel="popup">MENU</a>
+</div><!-- /header -->
+	
+    <div data-role="content">
+    	<h2 class="page-title">Get a Quote</h2>
+		<script type="text/javascript" src="../../../../shared/javascripts/mkt_code_funcs.js"></script>
+        <form class="validate" id="gaq_form" action="#" method="post">
+        	<input type="hidden" name="action_name" value="submitgaqmobile" />
+            <input type="hidden" name="thankyou_page" id="thankyou_page" value="" />
+            <input type="hidden" name="error_page" id="error_page" value="" />
+            
+            <input type="hidden" value="" name="dealerId" id="dealerId" />
+            
+            <!--VEHICLE POI-->
+            <input type="hidden" name="poi" id="poi" value="" />
+            
+            <!--VEHICLE NAME (EX. 12 durango)-->
+            <input type="hidden" name="vehicle_name" id="vehicle_name" value="" />
+            <input type="hidden" name="vehicle_name" id="model_name" value="" />
+            
+             <script>
+				if(typeof(mktCodeCookie)!='undefined' && mktCodeCookie!=null){           
+					var insertLocation = $('#model_name');
+					
+					insertLocation
+						.after( "<input type=\"hidden\" name=\"buy_id\" value=\"" + bid + "\">")
+						.after( "<input type=\"hidden\" name=\"site_id\" value=\"" + sid + "\">")
+						.after( "<input type=\"hidden\" name=\"ad_id\" value=\"" + adid + "\">")
+						.after( "<input type=\"hidden\" name=\"rendering_id\" value=\"" + rid + "\">")
+						.after( "<input type=\"hidden\" name=\"placement_id\" value=\"" + pid + "\">")
+						.after( "<input type=\"hidden\" name=\"channel\" value=\"" + channel + "\">");
+				}		
+			</script>
+          
+            <div data-role="fieldcontain">
+                <label for="vehicle">Vehicle:<em>**</em></label>
+                <select id="vehicle" class="required">
+                	<option value="" disabled selected>Choose Vehicle...</option>
+                </select>            
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="model">Model:</label>
+                <select id="model" disabled>
+                	<option value="" disabled selected>Choose Model...</option>
+                </select>
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="first_name">First Name:<em>**</em></label>
+                <input type="text" name="first_name" id="first_name" value="" class="required" />
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="last_name">Last Name:<em>**</em></label>
+                <input type="text" name="last_name" id="last_name" value="" class="required" />
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="email">Email:<em>**</em></label>
+                <input type="email" name="email" id="email" value=""  class="required email" />
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="phoneNumber">Phone:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" value=""  />
+            </div>
+            
+            <div data-role="fieldcontain">
+                <label for="zipcode">ZIP:<em>**</em></label>
+                <input type="text" name="zipcode" id="zipcode" maxlength="5" class="required zip digits" />
+            </div>
+            <button value="submit-value" name="submit" type="submit" id="form-submit-btn">Submit</button>
+        </form>
+	</div><!-- /content -->
+    <div data-role="footer">
+    <ul class="social">
+        <a href="javascript:void(0);" data-ajax="false" name="lid=facebook&lpos=global_footer_mobile" class="footer-facebook" target="_blank"><img src="../../img/social/facebook.png" width="23" height="22" /></a>
+        <a href="javascript:void(0);" data-ajax="false" name="lid=twitter&lpos=global_footer_mobile" class="footer-twitter" target="_blank"><img src="../../img/social/twitter.png" width="23" height="22" /></a>
+        <a href="javascript:void(0);" data-ajax="false" name="lid=youtube&lpos=global_footer_mobile" class="footer-youtube" target="_blank"><img src="../../img/social/youtube.png" width="23" height="22" /></a>
+    </ul>
+
+    <ul class="text-links">
+       <a href="javascript:void(0);" class="full-site-link" target="_blank" name="lid=full_site&lpos=global_footer_mobile">Full Site</a> | 
+        <a href="../../mobile_apps/index.html"  name="lid=apps&lpos=global_footer_mobile">Apps</a> |
+        <a mporgnav href="http://es-m.dodge.com/" onclick="return switchLanguage('es'); function switchLanguage(lang){MP.SrcUrl=decodeURIComponent('mp_js_orgin_url'); MP.UrlLang='mp_js_current_lang'; MP.init(); MP.switchLanguage(MP.UrlLang==lang?'en':lang); return false;}" name="lid=espanol&lpos=global_footer_mobile">Espa&ntilde;ol</a>
+
+        <br />
+
+        <a href="http://m.dodge.com/universal/mobile/privacy.html" target="_blank" name="lid=privacy&lpos=global_footer_mobile">Privacy</a> | 
+        <a href="http://m.dodge.com/universal/Copyright.html" target="_blank" name="lid=copyright&lpos=global_footer_mobile">Copyright</a> | 
+        <a href="javascript:void(0);" name="lid=disclaimers&lpos=global_footer_mobile" class="disclaimer_toggle">Disclaimers</a>
+    </ul>
+    
+    <p>&copy;2013 Chrysler Group LLC. All Rights Reserved.</p>
+    <div class="footer-disclaimers"></div>
+</div> 
+<script type="text/javascript">
+	// Fix for the Galley Images on the first load.
+	$(function() {
+		var flag = true;
+		if(flag && $('.caroufredsel_wrapper')) {
+			var h = $('.list_carousel').height()-35+'px';
+			$('.caroufredsel_wrapper').height(h);
+			//alert($('.caroufredsel_wrapper').height());
+			flag = false;
+		}
+	});
+</script>  
+</div><!-- /gaq page -->
+
+</body>
+
+<!-- Mirrored from m.dodge.com/en/mobile/apps/gaq/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 29 Mar 2013 08:36:11 GMT -->
+</html>

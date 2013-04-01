@@ -1,0 +1,121 @@
+.ui-page.ui-body-y { text-shadow: none; font-size: 11px; /*font-family: Helvetica,Arial,sans-serif;*/ }
+.ui-page.ui-body-z { text-shadow: none; font-size: 11px; /*font-family: Helvetica,Arial,sans-serif;*/ }
+
+#mobapps #hero  img{ width: 100%}
+#mobapps #content_body {margin: 0 auto; width: 95%;  border-bottom: 1px solid #CCCCCC;}
+#mobapps h1 { font-size:11px; text-transform: uppercase; font-style: normal; font-weight: bold; margin:5px 0; }
+
+#mobapps .applist p { font-size: 10px;}
+#mobapps .ui-li-thumb {top: 15px !important; margin-right:0; }
+#mobapps .ui-listview .ui-li .ui-btn-text a.ui-link-inherit {padding-left:85px;}
+#mobapps h3 {font-style: normal; font-size:15px;}
+#mobapps .supported { font-style: italic; padding-top:3px;}
+
+#mobapps ul { list-style: none outside none;width: 100%; }
+
+
+
+/*#mobapps .bottom_detail .follow {margin-left: 39px;}*/
+#mobapps .bottom_detail {display: block; overflow: hidden; position: relative; width:234px; text-align: center; margin: 0 auto;}
+#mobapps .bottom_detail #follow, #mobapps .bottom_detail #logo_links{width:100%}
+#mobapps   .new{ background: url("../../../mobile_apps/images/sprite.png") no-repeat scroll -5px -103px transparent; display: block; height: 32px; left: -7px; position: absolute; text-indent: -9999px; width: 62px;}
+
+#mobapps li .ui-icon {
+    display: none;
+}
+
+#mobapps li{border-left: medium none; border-right: medium none;  border-bottom: medium none;}
+#mobapps .applist  li{background: url("../images/right_arrow.png") no-repeat scroll right center transparent; min-height:100px;}
+#mobapps .content-primary li:last-child{border-bottom:1px solid #ccc !important;}
+#mobapps .content-primary h3 sup{font-size:19px}
+
+#mobapps #logo_links ul {overflow: hidden; padding: 0;} 
+#mobapps #logo_links li { display: inline; float: left;}
+#mobapps #logo_links a {  background: url("../images/footer_sprites.png") no-repeat scroll 0 0 transparent;
+	float: left;
+    height: 25px;
+    margin-left: 10px;
+    text-indent: -9999px;
+	overflow: hidden;
+}/*display: block; margin: 0 0 0 10px; text-indent:-9999px; height: 30px; overflow: hidden; background: url("/en/mobile/mobile_apps/images/footer_sprites.png") no-repeat scroll -18px -53px transparent; }*/
+#mobapps #logo_links .ramtruck a { width: 25px;}
+#mobapps #logo_links .chrysler a {   background-position: -34px 0; width: 91px; }
+#mobapps #logo_links .jeep a {  background-position: -136px 0; width: 46px;}
+#mobapps #logo_links .fiat a {  background-position: -192px 0; width: 25px; }
+
+#mobapps .ui-footer  {margin-bottom: 10px;}
+#mobapps .content-primary img, #detail_content img{ width:100%}
+
+/* DETAILS PAGE CSS */
+
+#details_page_content{ border-bottom: 2px solid #CCCCCC; width:95%; margin: 0 auto; }
+#details_page_content .back_link a{text-decoration: none; text-transform: uppercase; font-weight:normal !important; color: #000000; padding:8px 0 8px 19px; background: url("../images/left_arrow.png") no-repeat scroll left center transparent;display: block; width: 75%;}
+#detail_content .detail_header .detail_data h2{ color: #DF2901; font-family: Stratum_bold; letter-spacing: -0.035em; margin-bottom: 11px; text-transform: uppercase; margin: 0 0 8px 0;}
+#detail_content h3{ text-transform: uppercase; font-weight: bold; margin:20px 0 8px 0; }
+#detail_content h4 {text-transform: uppercase; font-weight:bold; margin:5px 0;}
+#detail_content p  { margin:0 0 10px 0; }
+#detail_content .detail_header  .detail_img{float:left;  display: block;  width: 25%;}
+#detail_content .detail_header .detail_data{ float: left;  width: 65%; padding-left:5%;}
+#detail_content .detail_header .detail_data p { margin-top: 0; font-size: 10px;	}
+#details_page_content .back_link{ border-bottom: 2px solid #CCCCCC;}
+
+#detail_content .detail_header h2 sup{font-size: 20px;}
+#detail_content .detail_header { overflow: hidden; width: 100%;}
+#detail_content .detail_body ul { xpadding-left: 2em;/* gallery padding issue */}
+#detail_content .detail_body  img{ width:100%}
+#detail_content .detail_body ul {list-style: disc outside none;}
+#detail_content { margin-bottom: 15px;    margin-top: 15px;}
+#detail_content .detail_data a {width: 100%;}
+#detail_content .detail_body .srt_link{color: #000;}
+a, a:link, a:visited, a:hover, a:active, a:focus {
+    outline: medium none;
+}
+	
+/* Get App css*/
+
+#detail_content a.popLink     { float:left; width:240px; color:#000; font-size:15px; font-weight: bold; text-transform:uppercase; padding:11px 8px 12px 8px; margin-bottom:6px; text-decoration:none; background: #cdcbc8 url(/en/mobile_apps/images/sprite.png) no-repeat  right -441px; font-family: 'Open Sans', Arial, sans-serif;  }
+#detail_content a.popLink     { background-color:#000; color:#fff; width: 95%; }
+#detail_content a.www         { background-position: right -142px; }
+#detail_content a.iphone      { background-position: right -296px; }
+#detail_content a.android     { background-position: right -240px; }
+#detail_content a.blackberry  { background-position: right -190px; }
+#detail_content a.android_iphone      { background-position: right -345px; }
+#detail_content a.blackberry_android_iphone      { background-position: right -395px;}
+#detail_content .detail_header a.more:hover   { background-color:#000;color:#fff;  background-position:148px -488px;}
+#detail_content .detail_header a.popLink:hover   { background-color:#ff0303;color:#fff; }
+#detail_content .apps li           { width:284px; float:left; list-style:none; display:block; margin:0 28px 42px 0; }
+
+
+#detail_content .popup		     { background:#FFF; position:fixed; width:190px; z-index:99999; border:3px solid #000; border-radius:4px; padding:28px 30px 22px 30px; display:none; font-family: 'Open Sans', Arial, sans-serif;}
+#detail_content .popup .close   { position:absolute; right:5px; top:5px; cursor:pointer; height:20px; width:20px; font-size:14px; text-align: center; }
+#detail_content .popup .arrow   { width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;border-top:10px solid #FFF;border-bottom:0;position:absolute;bottom: -10px;left:45%; text-indent:-9999px; }
+#detail_content.detail_contentdetail .popup .arrow   { border-bottom:10px solid #FFF; border-top:0;position:absolute; top: -10px;left:45%;}
+#detail_content .popup h4       { font-size:12px;font-weight: normal; margin-bottom:10px; }
+#detail_content .popup a.appLink{ display:block; text-decoration:none; font-size:16px; color:#FFF; padding:7px 8px 8px; margin-bottom: 8px; background:#000 url(/en/mobile_apps/images/sprite.png) no-repeat; }
+#detail_content .popup a.appLink strong { font-weight:bold; font-family:Arial; }
+#detail_content .popup a.appLink:hover  { background-color:red;}
+
+#detail_content .popup a.www         { background-position: 78px -146px; }
+#detail_content .popup a.iphone      { background-position: 78px -300px; }
+#detail_content .popup a.android     { background-position: 78px -244px; }
+#detail_content .popup a.blackberry  { background-position: 78px -194px; }
+#detail_content .popup a.android_iphone      { background-position: 78px -349px; }
+#detail_content .popup a.blackberry_android_iphone      { background-position: 78px -399px; }
+
+#popupMask      {background:#000;display:none;left:0;opacity:0.3;position:absolute;top:0;width:100%;z-index:9999;}
+
+
+/*Carousel css*/
+.list_carousel {	background-color: #ccc;	margin: 0;}
+.list_carousel.responsive {	width: auto; margin-left: 0; min-height: 272px;	border-radius: 5px;	background: none repeat scroll 0 0 #E6E6E6;	overflow: hidden; position: relative;	box-shadow: 0 2px 4px #999999;	padding:0 26px;	}
+.list_carousel ul {margin: 0;	padding: 0;	list-style: none; display: block;	}
+.list_carousel li { font-size: 4px; color: #999; text-align: center;	padding: 10px 10px 10px 0px;	margin: 0px; display: block;	float: left; height:auto;}
+.clearfix {	float: none; clear: both;}
+#detail_content .detail_body  .next, #detail_content .detail_body  .prev {	background: url("../../../mobile_apps/images/sprite.png") no-repeat scroll 0 0 transparent;	height: 50px; position: absolute;	text-indent: -9999px; width: 25px; margin-left: 10px;	margin-right: 10px;	top: 40%;}
+#detail_content .detail_body .prev {	float: left; left: -7px;	background-position: 0 -50px;	}
+#detail_content .detail_body  .next {	float: right; right: -7px; background-position: -50px -50px;}
+.pager {	float: left; margin: 4px; padding: 5px 0;	text-align: center;	width: 100%;}
+.pager a {  background: url("../../../mobile_apps/images/sprite.png") no-repeat scroll -86px -37px transparent; height: auto;	margin: 0 5px;	text-decoration: none;	width: 12px;padding: 0 4px 0 4px;}
+.pager a.selected {background-position: -86px -1px;	}
+.pager a span {  visibility: hidden;	}
+			

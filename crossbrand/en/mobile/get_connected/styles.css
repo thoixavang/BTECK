@@ -1,0 +1,68 @@
+#get_connected .ui-content{ width: 95%; margin: 0 auto; }
+#get_connected .ui-content h1, #get_connected_thankyou .ui-content h1{font-size:26px;}
+#get_connected .ui-content h2, #get_connected_thankyou .ui-content h2{font-size:18px;}
+#get_connected .ui-content h1, #get_connected_thankyou .ui-content h1,
+#get_connected .ui-content h2, #get_connected_thankyou .ui-content h2{
+text-align: center;text-transform: uppercase;font-weight:normal;margin:10px 0;padding:0;
+}
+
+#get_connected .ui-field-contain{ text-align: center; } 
+#get_connected .ui-field-contain label.ui-select, 
+#get_connected .ui-field-contain label.ui-input-text{ display: none; }
+#get_connected .ui-field-contain .ui-select, 
+#get_connected .ui-field-contain input.ui-input-text, 
+#get_connected .ui-field-contain textarea.ui-input-text, 
+#get_connected .ui-field-contain .ui-input-search{ width: 92%; font-size: 14px; }
+#get_connected .ui-field-contain .ui-select{ width: 97%; text-transform: uppercase;}
+
+#get_connected .required_text{ float:right; padding-bottom: 20px; text-transform: uppercase; font-size: 11px; }
+
+#get_connected .add_vehicles_div{ clear: both; width: 95%; margin: 0 auto; padding-top: 5px; border-top: solid 1px; text-transform: uppercase;}
+#get_connected .add_vehicles_div .ui-collapsible-content{ padding: 4px 0; }
+        
+#get_connected .ui-br{ border-bottom: none; }
+
+#get_connected .marketing_statement{ font-size: 11px; text-align: center; }
+
+#get_connected .subtitle{ font-weight: bold; text-transform: uppercase; padding-bottom: 10px; }
+#get_connected .subtitle.titleLeft{text-align:left;}
+
+#get_connected .bottom_btns{ width: 75%; margin: 40px auto 20px; }
+
+#get_connected label.error { font-size: 14px; text-align: left; text-transform: none;}
+#get_connected .add_vehicles_div label.error { width: 99%; }
+
+#get_connected .alert-icon{
+    background-position:-504px 50%;
+    height: 10px;
+    width: 20px;
+    display: inline-block;
+}
+
+#get_connected .ui-collapsible{ margin-bottom: 25px !important; }
+#get_connected .ui-collapsible-heading{ font-size: 14px; }
+#get_connected .ui-checkbox-on .ui-icon{ background-color:transparent; }
+
+
+
+#get_connected_error .ui-content{ width: 95%; margin: 0 auto; font-size: 14px; }
+
+
+#get_connected_error .thankyou_text{ text-align: center; }
+
+#get_connected_error .bottom_btns{ width: 75%; margin: 40px auto 20px; }
+
+#get_connected_error .marketing_statement{ font-size: 11px; text-align: center; border-top: solid 1px; margin-top: 30px; padding-top: 25px; }
+
+
+
+
+
+#get_connected_thankyou .ui-content{ width: 95%; margin: 0 auto; font-size: 14px; }
+
+
+#get_connected_thankyou .thankyou_text{ text-align: center; }
+
+#get_connected_thankyou .bottom_btns{ width: 75%; margin: 40px auto 20px; }
+
+#get_connected_thankyou .marketing_statement{ font-size: 11px; text-align: center; border-top: solid 1px; margin-top: 30px; padding-top: 25px; }
